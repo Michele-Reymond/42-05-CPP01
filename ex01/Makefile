@@ -1,6 +1,6 @@
 SRCS	= 	main.cpp \
 			Zombie.cpp \
-			zombieCreation.cpp
+			zombieHorde.cpp
 CFLAGS	= -Wall -Werror -Wextra -std=c++98
 CC		= c++
 NAME	= zombie
