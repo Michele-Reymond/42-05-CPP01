@@ -1,10 +1,7 @@
-SRCS	= 	main.cpp \
-			Zombie.cpp \
-			newZombie.cpp \
-			randomChump.cpp
+SRCS	= 	main.cpp
 CFLAGS	= -Wall -Werror -Wextra -std=c++98
 CC		= c++
-NAME	= zombie
+NAME	= brain
 OBJS	= ${SRCS:.cpp=.o}
 RM		= rm -f
 
@@ -26,4 +23,4 @@ run:
 
 mrun: all run
 
-.PHONY: all clean fclean re run mrun
+.PHONY: all clean fclean re run

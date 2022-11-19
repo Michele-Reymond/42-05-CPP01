@@ -16,6 +16,3 @@ int main() {
     delete rachel;
     return (0);
 }
-
-// fichier cpp séparés pour les 2 classes en plus?
-// le zombie créé dans randomChump est détruit dans randomChump?
